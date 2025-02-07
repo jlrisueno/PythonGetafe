@@ -1,2 +1,2 @@
 print("Hoy es juernes")
-print("Viernes!!")
+print("Viernes!! prueba subida git")
