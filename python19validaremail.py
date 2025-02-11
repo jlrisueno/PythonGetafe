@@ -19,4 +19,6 @@ if(len(mail)-(mail.rfind(".")+1) < 2):
     print("El dominio debe de ser de 2 a 3 caractéres")
 if(len(mail)-(mail.rfind(".")+1) > 3):
     print("El dominio debe de ser de 2 a 3 caractéres")
+if(mail.rfind("@")!=mail.find("@")):
+    print("No puede tener más de un @")
 print("Fin de programa")
