@@ -28,6 +28,7 @@ for i in range(longitud):
 print("Comprobación de que se introduce un número:")
 print("Introduzca un número:")
 aux = input()
+print(aux.isdigit())
 if(aux.isdigit()):
     print("Esto es un número! :)")
 else:
