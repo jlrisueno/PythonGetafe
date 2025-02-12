@@ -2,6 +2,7 @@ print("Métodos string")
 texto = "primero python"
 print("upper ", texto.upper())
 print("replace " + texto.replace("o", "@"))
+print("count letra o:", texto.count("o"))
 print("Letra 0: " + texto[0])
 print("Longitud (len)", len(texto))
 print("find letra P: ", texto.find("p"))
