@@ -1,7 +1,7 @@
 print("Calcular letra DNI")
 print("Introduzca DNI:")
 varDNI = int(input())
-#varResult = varDNI-(int(varDNI/23)+23)
+#varResult = varDNI-(int(varDNI/23)*23)
 varResult = varDNI%23
 if(varResult == 0):
     print("T")  
