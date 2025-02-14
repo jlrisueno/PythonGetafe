@@ -1,0 +1,20 @@
+from class30conductor import Coche
+from class31deportivo import Derpotivo
+
+print("Conduciendo mi coche")
+car = Coche()
+velCoche = car.getVelocidadMaxima()
+print("Velocidad coche", velCoche)
+# car.arrancar()
+# car.acelerar()
+# car.acelerar()
+# car.frenar()
+# car.detener()
+print("Conduciendo mi deportivo")
+depor = Derpotivo()
+velDeportivo = depor.getVelocidadMaxima()
+print("Velocidad deportivo", velDeportivo)
+# depor.arrancar()
+# depor.acelerar()
+# depor.turbo()
+print("Fin de programa")
