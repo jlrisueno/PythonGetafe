@@ -101,3 +101,13 @@ from emp cross join dept;
 select doctor.apellido, doctor.salario, doctor.especialidad, hospital.direccion
 from doctor inner join hospital on doctor.hospital_cod=hospital.hospital_cod
 where hospital.nombre='la paz';
+-- visualizar cuantos empleados trabajan en cada dpt mostrando el nombre del dpt
+select count(emp.dept_no) as EMPLEADOS, dept.dnombre
+from emp right join dept on emp.dept_no=dept.dept_no
+group by dept.dnombre;
+-- AGRUPACIÓN 3 TABLAS
+select plantilla.apellido, plantilla.funcion,
+hospital.nombre,
+sala.nombre
+from plantilla inner join hospital on plantilla.hospital_cod=hospital.hospital_cod
+inner join sala on hospital.hospital_cod=sala.hospital_cod and sala.sala_cod=plantilla.sala_cod;
