@@ -7,3 +7,5 @@ Ver estado de docker:
 docker container ls -a
 Levantar servicio Oracle:
 docker container start 482b4e463052
+
+>Kq(k9/Q
